@@ -12,6 +12,7 @@ beforeAll(() => {
 
 afterEach(() => {
   server.resetHandlers();
+  // 모킹된 모의 객체 호출에 대한 히스토리 초기화
   vi.clearAllMocks();
 });
 
